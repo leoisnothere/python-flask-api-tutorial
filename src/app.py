@@ -20,7 +20,7 @@ def add_new_todo():
 def delete_todo(position):
     print("This is the position to delete:", position)
     todos.pop(position)
-    return jsonify(todos), 201
+    return jsonify(todos)
 
 
 if __name__ == '__main__':
